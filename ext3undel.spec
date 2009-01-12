@@ -1,5 +1,5 @@
-Summary:	A collection of scripts to help you recover files from ext3/ext3
-Summary(pl.UTF-8):	Zestaw skryptów do odzyskiwania plików z ext3/ext3
+Summary:	A collection of scripts to help you recover files from ext2/ext3
+Summary(pl.UTF-8):	Zestaw skryptów do odzyskiwania plików z ext2/ext3
 Name:		ext3undel
 Version:	0.1.6
 Release:	1
