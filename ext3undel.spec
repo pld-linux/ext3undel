@@ -2,9 +2,9 @@ Summary:	A collection of scripts to help you recover files from ext2/ext3
 Summary(pl.UTF-8):	Zestaw skryptów do odzyskiwania plików z ext2/ext3
 Name:		ext3undel
 Version:	0.1.6
-Release:	2
+Release:	3
 License:	GPL v2
-Group:		Applications
+Group:		Applications/System
 # Source0Download: http://projects.izzysoft.de/trac/ext3undel/wiki/Download
 Source0:	%{name}-%{version}.tar.gz
 # Source0-md5:	996107eead228ed476e89e8b9b82242f
@@ -12,7 +12,7 @@ Patch0:		%{name}-bashizm.patch
 URL:		http://projects.izzysoft.de/trac/ext3undel
 Requires:	sleuthkit
 Suggests:	foremost
-#Suggests:	photorec
+Suggests:	testdisk
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
